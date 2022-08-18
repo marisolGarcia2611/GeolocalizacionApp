@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     @SuppressLint("RestrictedApi")
     fun createMarker() {//latitud:Double,longitud:Double
         var queue = Volley.newRequestQueue(this)
-        val url = "http://192.168.100.27:8000/api/show"
+        val url = "http://192.168.254.208:8000/api/show"
         //RECIBIR UN JSON OBJECT
 
         val stringRequest = StringRequest(Request.Method.GET,url, { response ->
@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     @SuppressLint("RestrictedApi")
     private fun getLatlong(): Unit {
         var queue = Volley.newRequestQueue(this)
-        val url = "http://192.168.100.27:8000/api/show"
+        val url = "http://192.168.254.208:8000/api/show"
         //RECIBIR UN JSON OBJECT
 
        val stringRequest = StringRequest(Request.Method.GET,url, { response ->
