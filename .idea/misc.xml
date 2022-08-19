@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/maris/AndroidStudioProjects/Geolocalizacion/app/src/main/res/drawable-v24/backgraund.xml" value="0.1" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/Geolocalizacion/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/maris/AndroidStudioProjects/Geolocalizacion/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/maris/AndroidStudioProjects/Geolocalizacion/app/src/main/res/layout/backgraund.xml" value="0.1" />
       </map>
     </option>
   </component>
